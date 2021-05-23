@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EleccionEjercicio">
+
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/purple_500"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Selección de Entrenamiento"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lblSubTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/lblSubTitulo"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblAbdomilesS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#DCD4EA"
+        android:text="@string/lblAbdomilesS"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgAbs"
+        android:layout_width="wrap_content"
+        android:layout_height="108dp"
+        app:srcCompat="@drawable/abs_cinco" />
+
+    <TextView
+        android:id="@+id/lblBrazoS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFDCD4EA"
+        android:text="@string/lblBrazoS"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgBrazo"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        app:srcCompat="@drawable/brazo_uno" />
+
+    <TextView
+        android:id="@+id/lblPiernaS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFDCD4EA"
+        android:text="@string/lblPiernaS"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgPierna"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        app:srcCompat="@drawable/pierna_siete" />
+
+    <TextView
+        android:id="@+id/lblStrechS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#FFDCD4EA"
+        android:text="@string/lblStrechS"
+        android:textAlignment="viewStart"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgStrech"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        app:srcCompat="@drawable/strech_cinco" />
+
+</LinearLayout>

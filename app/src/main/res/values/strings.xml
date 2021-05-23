@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GymApp</string>
+    <string name="lblAbdomilesS">Abdominales</string>
+    <string name="lblBrazoS">Brazo</string>
+    <string name="lblPiernaS">Pierna</string>
+    <string name="lblStrechS">Estiramiento</string>
+    <string name="lblSubTitulo">¿Qué te apetece entrenar hoy?</string>
+</resources>
