@@ -1,4 +1,4 @@
-# TAMAGOTCHI WPF🎮
+# GYM APP🏋️‍♀
 
 _Proyecto realizado para la asignatura de **Interacción Persona-Ordenador 2** en el que se ha desarrollado una aplicación en Android Studio usando SQLite consistente en una app de **gimnasio** con diseño
 personalizado. 
